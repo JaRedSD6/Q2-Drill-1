@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://plain-apac-prod-public.komododecks.com/202610/16/dzAWLdYQHD7cF43xoJNb/image.webp) ;
+}
+
+.container{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 8px;
+}
+
+img{
+    text-align: center;
+}
+
+.row{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(23, 240, 131);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+}
+
+.col-3{
+    height: 185px;
+    width: 50px;
+}
+
+.col-4 {
+    width: 50px ;
+}
